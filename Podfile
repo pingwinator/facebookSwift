@@ -9,7 +9,7 @@ target 'FacebookTestIntegration' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-   pod 'FBSDKCoreKit', '~> 6.0'
-   pod 'FBSDKLoginKit', '~> 6.0'
+   pod 'FBSDKCoreKit', '~> 7.0'
+   pod 'FBSDKLoginKit', '~> 7.0'
 
 end
