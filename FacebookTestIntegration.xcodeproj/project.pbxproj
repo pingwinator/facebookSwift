@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FD8E12D62473CD8200E96DBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E12D52473CD8200E96DBE /* AppDelegate.m */; };
-		FD8E12D92473CD8200E96DBE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E12D82473CD8200E96DBE /* SceneDelegate.m */; };
 		FD8E12DC2473CD8200E96DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8E12DB2473CD8200E96DBE /* ViewController.m */; };
 		FD8E12DF2473CD8200E96DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD8E12DD2473CD8200E96DBE /* Main.storyboard */; };
 		FD8E12E12473CD8500E96DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8E12E02473CD8500E96DBE /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		FD8E12D12473CD8200E96DBE /* FacebookTestIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookTestIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8E12D42473CD8200E96DBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD8E12D52473CD8200E96DBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD8E12D72473CD8200E96DBE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		FD8E12D82473CD8200E96DBE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		FD8E12DA2473CD8200E96DBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FD8E12DB2473CD8200E96DBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD8E12DE2473CD8200E96DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +60,6 @@
 			children = (
 				FD8E12D42473CD8200E96DBE /* AppDelegate.h */,
 				FD8E12D52473CD8200E96DBE /* AppDelegate.m */,
-				FD8E12D72473CD8200E96DBE /* SceneDelegate.h */,
-				FD8E12D82473CD8200E96DBE /* SceneDelegate.m */,
 				FD8E12DA2473CD8200E96DBE /* ViewController.h */,
 				FD8E12DB2473CD8200E96DBE /* ViewController.m */,
 				FD8E12DD2473CD8200E96DBE /* Main.storyboard */,
@@ -149,7 +144,6 @@
 				FD8E12DC2473CD8200E96DBE /* ViewController.m in Sources */,
 				FD8E12D62473CD8200E96DBE /* AppDelegate.m in Sources */,
 				FD8E12E72473CD8500E96DBE /* main.m in Sources */,
-				FD8E12D92473CD8200E96DBE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,6 +286,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QG7FPSN8H;
 				INFOPLIST_FILE = FacebookTestIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QG7FPSN8H;
 				INFOPLIST_FILE = FacebookTestIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
